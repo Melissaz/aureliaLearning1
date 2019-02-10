@@ -1,0 +1,31 @@
+{
+  "name": "atest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular2-router-loader": "^0.3.5",
+    "express": "^4.16.4",
+    "jspm": "^0.16.53",
+    "save-dev": "^2.0.0",
+    "util": "^0.11.1"
+  },
+  "jspm": {
+    "dependencies": {
+      "aurelia-framework": "npm:aurelia-framework@^1.3.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.8"
+  }
+}
